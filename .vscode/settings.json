@@ -1,0 +1,7 @@
+{
+  "eslint.enable": true,
+  "eslint.validate": ["typescript"],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
