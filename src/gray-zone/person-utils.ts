@@ -49,3 +49,9 @@ export function hasAddress(person: Person) {
 
 // Is the function "hasAddress" pure or impure?
 // Yes, given the implementation of the function "hasAddress", it will return identical results for identical arguments. This function checks if the person object has an address property and if that address has both town and street properties. It doesn't rely on any external state or cause side effects, so it should return the same result for the same person input.
+
+// Sourcery chat
+//-----------------------
+
+// Is the function "hasAddress" pure or impure?
+// The function "hasAddress" in the provided code is pure. It takes a person object as input and checks if it has a valid address by verifying if the address property exists and if both town and street properties are truthy. It does not modify any external state or produce any side effects.
